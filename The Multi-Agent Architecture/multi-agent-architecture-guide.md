@@ -208,7 +208,3 @@ not by model intelligence alone.
 
 Future-proof AI systems avoid vendor lock-in by assigning specialized models to specialized roles, allowing overall system performance to improve as individual models continue to evolve.
 """
-
-out = Path("/mnt/data/The_Architecture_of_Collaboration_Multi_Agent_Strategies.md")
-pypandoc.convert_text(content, "md", format="md", outputfile=str(out), extra_args=["--standalone"])
-print(out)
